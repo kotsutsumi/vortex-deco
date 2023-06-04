@@ -14,5 +14,8 @@
   "bugs": {
     "url": "https://github.com/kotsutsumi/vortex-deco/issues"
   },
-  "homepage": "https://github.com/kotsutsumi/vortex-deco#readme"
+  "homepage": "https://github.com/kotsutsumi/vortex-deco#readme",
+  "dependencies": {
+    "@emotion/css": "^11.11.0"
+  }
 }
