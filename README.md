@@ -1,1 +1,1 @@
-# vortex-deco
+# Vortex Deco
