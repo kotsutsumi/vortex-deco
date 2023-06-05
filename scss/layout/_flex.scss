@@ -1,0 +1,73 @@
+// rows.scss
+
+.rows {
+    @extend .flex;
+    @extend .flex-row;
+}
+
+.rows-wrap {
+    @extend .rows;
+    @extend .flex-wrap;
+}
+
+.rows-wrap-reverse {
+    @extend .rows;
+    @extend .flex-wrap-reverse;
+}
+
+.rows-nowrap {
+    @extend .rows;
+    @extend .flex-nowrap;
+}
+
+.rows-reverse {
+    @extend .flex;
+    @extend .flex-row-reverse;
+}
+
+.rows-reverse-wrap {
+    @extend .rows-reverse;
+    @extend .flex-wrap;
+}
+
+.rows-reverse-wrap-reverse {
+    @extend .rows-reverse;
+    @extend .flex-wrap-reverse;
+}
+
+.rows-reverse-nowrap {
+    @extend .rows-reverse;
+    @extend .flex-nowrap;
+}
+
+.cols {
+    @extend .flex;
+    @extend .flex-column;
+}
+
+.cols-wrap {
+    @extend .cols;
+    @extend .flex-wrap;
+}
+
+.cols-reverse {
+    @extend .flex;
+    @extend .flex-column-reverse;
+}
+
+.cols-reverse-wrap {
+    @extend .cols-reverse;
+    @extend .flex-wrap;
+}
+
+.cols-reverse-wrap-reverse {
+    @extend .cols-reverse;
+    @extend .flex-wrap-reverse;
+}
+
+.cols-reverse-nowrap {
+    @extend .cols-reverse;
+    @extend .flex-nowrap;
+}
+
+// EOF
