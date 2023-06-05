@@ -1,0 +1,191 @@
+// _color-box.scss
+
+// base
+.box-base {
+    @extend .flex;
+    @extend .justify-content-center;
+    @extend .align-items-center;
+    @extend .font-bold;
+    @extend .text-white;
+}
+
+// primary
+.box-primary {
+    @extend .box-base;
+    @extend .bg-primary;
+}
+
+.box-primary-round {
+    @extend .box-primary;
+    @extend .border-round;
+}
+
+// primary-reverse
+.box-primary-reverse {
+    @extend .box-base;
+    @extend .bg-primary-reverse;
+    @extend .text-color;
+}
+
+.box-primary-reverse-round {
+    @extend .box-primary-reverse;
+    @extend .border-round;
+}
+
+// surface
+.box-surface {
+    @extend .box-base;
+    @extend .surface-500;
+    @extend .text-color;
+}
+
+.box-surface-round {
+    @extend .box-surface;
+    @extend .border-round;
+}
+
+// white
+.box-white {
+    @extend .box-base;
+    @extend .bg-white;
+    @extend .text-color;
+}
+
+.box-white-round {
+    @extend .box-white;
+    @extend .border-round;
+}
+
+// blue
+.box-blue {
+    @extend .box-base;
+    @extend .bg-blue-500;
+}
+
+.box-blue-round {
+    @extend .box-blue;
+    @extend .border-round;
+}
+
+// green
+.box-green {
+    @extend .box-base;
+    @extend .bg-green-500;
+}
+
+.box-green-round {
+    @extend .box-green;
+    @extend .border-round;
+}
+
+// yellow
+.box-yellow {
+    @extend .box-base;
+    @extend .bg-yellow-500;
+}
+
+.box-yellow-round {
+    @extend .box-yellow;
+    @extend .border-round;
+}
+
+// cyan
+.box-cyan {
+    @extend .box-base;
+    @extend .bg-cyan-500;
+}
+
+.box-cyan-round {
+    @extend .box-cyan;
+    @extend .border-round;
+}
+
+// pink
+.box-pink {
+    @extend .box-base;
+    @extend .bg-pink-500;
+}
+
+.box-pink-round {
+    @extend .box-pink;
+    @extend .border-round;
+}
+
+// indigo
+.box-indigo {
+    @extend .box-base;
+    @extend .bg-indigo-500;
+}
+
+.box-indigo-round {
+    @extend .box-indigo;
+    @extend .border-round;
+}
+
+// teal
+.box-teal {
+    @extend .box-base;
+    @extend .bg-teal-500;
+}
+
+.box-teal-round {
+    @extend .box-teal;
+    @extend .border-round;
+}
+
+// orange
+.box-orange {
+    @extend .box-base;
+    @extend .bg-orange-500;
+}
+
+.box-orange-round {
+    @extend .box-orange;
+    @extend .border-round;
+}
+
+// bluegray
+.box-bluegray {
+    @extend .box-base;
+    @extend .bg-bluegray-500;
+}
+
+.box-bluegray-round {
+    @extend .box-bluegray;
+    @extend .border-round;
+}
+
+// purple
+.box-purple {
+    @extend .box-base;
+    @extend .bg-purple-500;
+}
+
+.box-purple-round {
+    @extend .box-purple;
+    @extend .border-round;
+}
+
+// gray
+.box-gray {
+    @extend .box-base;
+    @extend .bg-gray-500;
+}
+
+.box-gray-round {
+    @extend .box-gray;
+    @extend .border-round;
+}
+
+// red
+.box-red {
+    @extend .box-base;
+    @extend .bg-red-500;
+}
+
+.box-red-round {
+    @extend .box-red;
+    @extend .border-round;
+}
+
+// EOF

@@ -1,0 +1,98 @@
+// _card-container.scss
+
+// base
+.card-container-base {
+    @extend .border-round-md;
+    @extend .border-1;
+    @extend .p-4;
+    @extend .my-4;
+    @extend .border-dashed;
+    @extend .font-bold;
+    background-image: url('data:image/svg+xml;utf8,<svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="4" height="4" fill="black" fill-opacity="0.03"/><rect x="4" y="4" width="4" height="4" fill="black" fill-opacity="0.03"/></svg>');
+}
+
+.blue-container {
+    @extend .card-container-base;
+    @extend .bg-blue-50;
+    @extend .border-blue-500;
+    @extend .text-blue-700;
+}
+
+.green-container {
+    @extend .card-container-base;
+    @extend .bg-green-50;
+    @extend .border-green-500;
+    @extend .text-green-700;
+}
+
+.yellow-container {
+    @extend .card-container-base;
+    @extend .bg-yellow-50;
+    @extend .border-yellow-500;
+    @extend .text-yellow-700;
+}
+
+.cyan-container {
+    @extend .card-container-base;
+    @extend .bg-cyan-50;
+    @extend .border-cyan-500;
+    @extend .text-cyan-700;
+}
+
+.pink-container {
+    @extend .card-container-base;
+    @extend .bg-pink-50;
+    @extend .border-pink-500;
+    @extend .text-pink-700;
+}
+
+.indigo-container {
+    @extend .card-container-base;
+    @extend .bg-indigo-50;
+    @extend .border-indigo-500;
+    @extend .text-indigo-700;
+}
+
+.teal-container {
+    @extend .card-container-base;
+    @extend .bg-teal-50;
+    @extend .border-teal-500;
+    @extend .text-teal-700;
+}
+
+.orange-container {
+    @extend .card-container-base;
+    @extend .bg-orange-50;
+    @extend .border-orange-500;
+    @extend .text-orange-700;
+}
+
+.bluegray-container {
+    @extend .card-container-base;
+    @extend .bg-bluegray-50;
+    @extend .border-bluegray-500;
+    @extend .text-bluegray-700;
+}
+
+.purple-container {
+    @extend .card-container-base;
+    @extend .bg-purple-50;
+    @extend .border-purple-500;
+    @extend .text-purple-700;
+}
+
+.gray-container {
+    @extend .card-container-base;
+    @extend .bg-gray-50;
+    @extend .border-gray-500;
+    @extend .text-gray-700;
+}
+
+.red-container {
+    @extend .card-container-base;
+    @extend .bg-red-50;
+    @extend .border-red-500;
+    @extend .text-red-700;
+}
+
+// EOF
