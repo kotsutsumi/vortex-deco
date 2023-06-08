@@ -1,6 +1,6 @@
 {
     "name": "vortex-deco",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "CSS Utility Sets for Vortex Core extends PrimeFlex.",
     "scripts": {
         "build": "rm -rf dist && gulp sass && gulp build"
